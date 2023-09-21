@@ -14,10 +14,10 @@ The project was run under Laravel Sail on Windows 10 (wsl2).
 
 For testing webhook(*charge.refund* only) local stripe cli was used. *Refund request located in dashboard.*
 
-**Don't forget** to change the `.env` file with your Stripe keys.
+**Don't forget** to update the `.env` file with your Stripe keys.
 
 Make sure you have run `composer install` ,`npm install`, `php artisan migrate` and `php artisan db:seed` before running the project.
 
-**NEED TO BE RUN** `npm run dev`
+To start the project – run this command: `npm run dev`
 
-** Admin account details can be seen in** `database/seeders/UserSeeder.php`
+**Admin account details can be seen in** `database/seeders/UserSeeder.php`
